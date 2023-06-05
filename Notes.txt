@@ -1,0 +1,47 @@
+rspec-core: This runs the test
+
+rspec-expectations: It is the matcher that implements expectations
+
+rspec-mocks: It is used to fake the behaviour of classes and objects
+
+rspec-rails
+
+
+
+     /
+    /   E2E Test
+    -----------------
+  /  Integration Test
+  -----------------
+/    Unit Test
+-----------------
+
+
+Unit Tests
+- focuses on individual code units
+- tested in isolation
+- specs are easy to write and run fast
+- entire program is not tested very well 
+
+
+E2E Tests
+- focuses on a feature and it's integration with the entire system
+- elements are tested together
+- specs are hard to write, brittle and run slow
+- Manual tests are included here
+
+Integration Tests
+- somewhere in the middle of E2E and Uni Tests
+- multiple components tested together
+
+
+
+TDD
+
+Red --> Green --> Refactor
+
+Hooks 
+A hook is a piece of code that runs automatically at a specific time during the test suites execution.
+
+Instance variable
+Allows us to presist information that would otherwise be lost
